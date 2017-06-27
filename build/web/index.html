@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Morse translator</title>
+    </head>
+    <body>
+        <h2>Converter to Morse code and opposite</h2>
+
+        <form action="Morse" method="POST">
+            <p>Convert to morse code:<br>
+                <input type="text" size="80" name="inputText"></p>
+            <input type="radio" name="converterRadio" value="morse" checked>to Morse
+            <input type="radio" name="converterRadio" value="ascii">to Normal
+            <input type="submit" value="Run">
+        </form>
+        <hr>
+        <form action="History" method="POST">
+            <input type="submit" value="Show history" />
+        </form>
+
+    </body>
+</html>
